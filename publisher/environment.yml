@@ -1,0 +1,10 @@
+name: python3.6
+channels:
+dependencies:
+  - python=3.6
+  - matplotlib
+  - pip
+  - pip:
+      - opencv-contrib-python
+      - imutils
+      - pyzmq
